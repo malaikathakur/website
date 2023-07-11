@@ -1,0 +1,212 @@
+*{margin: 0;
+padding: 0;}
+
+/* /* css variable  */
+:root{--navbar-hieght:59px}
+
+#navbar{ display:flex;
+align-items: center;}
+/* justify-content: center;} */
+
+
+
+/* navition bar: logo and image */
+#logo{margin: 0px 10px;}
+
+
+
+
+
+#logo img{height: 100px;
+     margin: 1px 2px}
+
+#navbar{position: relative;}
+
+     #navbar ul{display: flex;
+    text-decoration: none;
+list-style: none;
+font-size: 6rem;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Noticia Text', serif;
+}
+
+#navbar::before{content: "";
+    background-color: black;
+position: absolute;
+height:10px;
+width: 100%;
+z-index: -1;
+opacity:0.4;}
+/* color: white;} */
+
+
+
+    #navbar ul li{display: flex;
+    text-decoration: none;
+/* color: white;} */
+list-style: none;
+font-size: 1rem; }
+
+#navbar ul li a{
+    color:white;
+    display: block;
+    padding:3px  22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color:black;
+    /* background-color: white; */
+}
+
+/* home secction */
+#home
+{display: flex;
+flex-direction: column;
+padding: 3px 100px;
+justify-content: center;
+align-items: center;
+height: 350px;}
+/* width: 400px;} */
+
+#home::before{display: flex;
+content: "";
+/* background: url(Top-10-facts-about-whiskey-All-the-TOP10-in-2019-Food-.jpg) no-repeat center center/cover; */
+background:url(pexels-pixabay-326279.jpg) no-repeat center center / cover;
+position: absolute;
+height: 564px;
+width: 100%;
+z-index: -1;
+opacity: 0.89;
+top: 0px;
+left: 0px;
+}
+/* utality clasex */
+#home h1{color: white;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+font-family: 'Noticia Text', serif;}
+
+
+
+#home p{color: white;
+text-align: center;
+font-size: 1.0rem;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Noticia Text', serif;}
+
+
+
+.hprimary{font-size: 1.8rem;
+padding: 12px;
+color: white;}
+
+.hsecondary{font-size: 1.8rem;
+    padding: 12px;
+    color: white;}
+    
+
+.btn{padding: 10px 20px;
+border: 2px solid white;
+background-color: rgb(53, 9, 9);
+color: white;
+margin: 17px;
+font-size: 1.2rem;
+border-radius: 10px;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Noticia Text', serif;
+font-family: 'Playball', cursive;
+cursor: pointer;
+}
+/* service section */
+#service{margin: 2px;
+display: flex;}
+
+#service .box{
+    border: 3px solid brown;
+    text-align: center;
+    border-radius: 38px;
+    margin: 25px;
+    padding: 3px;
+    background-color:whitesmoke;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Noticia Text', serif;
+font-size:16px;}
+
+
+
+#service .box img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+.hprimarycenter{font-size: 2.5em;
+text-align: center;
+padding-top: 100px;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Noticia Text',serif;}
+
+/* client center */
+
+#clients-section{height: 250px;
+position: relative;
+padding-top: 20px;} 
+
+#clients-section::before{content: "";
+position:absolute;
+background: url(clinets.jpg)  no-repeat center center/cover;
+width: 100%;
+height: 300px;
+z-index:-1;
+opacity: 0.3;}
+
+
+#client img{height: 80px
+;margin: 22px;}
+
+.clientitem{padding: 16px;}
+
+#client{display: flex;
+justify-content: center;
+align-items: center;}
+
+.hcenter{text-align: center;
+font-size: 2.5rem;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Noticia Text', serif;
+}
+/* contact section */
+#contact{position: relative;
+    padding-top: 80px;}
+
+#contact::before{content: "";
+    position:absolute;
+    background: url(pngtree-contact-us-internet-image_2241394.jpg)  no-repeat center center/cover;
+    width: 100%;
+    height: 450px;
+    z-index:-1;
+    opacity: 0.3;
+padding-top: 2px;}
+
+
+    #contact img{height:800px
+        ;margin: 2px;}
+        
+        .center{text-align: center;}
+
+        footer{background-color: black;
+        color: white;
+    padding: 9px 40px;}
+
+#contactmalak{text-align: center;
+display: flex;
+padding-bottom: 40px;
+justify-content: center;
+}
+   #malak{width: 160px;
+    height:220px;
+padding: 5rem;
+margin: auto;} 
+
